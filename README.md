@@ -15,3 +15,11 @@
 - Dependencias: requirements.txt generado con pip freeze.
 - Datos: bank-additional.csv y customer-details.xlsx guardados en data/raw/, sin modificar.
 - Git: autenticación resuelta y primer commit subido, con un borrador de README.
+
+**Resumen de la sesión 02**
+- Objetivo: cargar e inspeccionar los datos sin limpiar nada.
+- CSV: cargado (comprobando el separador) y revisado con shape, info, describe, nulos, duplicados, nunique y categorías de las columnas de texto.
+- Excel: 3 hojas cargadas con sheet_name=None (diccionario de DataFrames), comparando dimensiones, columnas, nulos y duplicados.
+- Claves: revisados tipo y formato de id_ (CSV) e ID (Excel) de cara al merge.
+- Entregable: lista de problemas detectados en Markdown, que será el guion de limpieza.
+- Git: commit y push con el notebook 01.
